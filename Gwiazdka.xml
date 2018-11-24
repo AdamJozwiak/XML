@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Gwiazdka.xsl"?>
+<!--<?xml-stylesheet href="Gwiazdka.css" type="text/css"?>-->
+<Gwiazdka>
+	<!--xmlns="JaIMojaPrzestrzeńNazw"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="JaIMojaPrzestrzeńNazw Gwiazdka.xsd"-->
+
+	<tytuł>Gwiazdy i Ich Konstelacje</tytuł>
+
+		<gwiazdy>
+
+			<gwiazda>
+				<nazwa>Słońce</nazwa>
+				<rodzaj>Karzeł</rodzaj>
+				<odległość_od_z jednostka="ly">0,0000158</odległość_od_z>
+				<masa>1,989*10<sup>30</sup> kg</masa>
+				<promień>69600000 km</promień>
+				<data_odkrycia>nieznana</data_odkrycia>
+				<wiek>4,57*10<sup>9</sup>lat</wiek>
+				<temp jednostka="K">5778 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Wielki_Pies">
+				<nazwa>Syriusz A</nazwa>
+				<rodzaj>Karzeł</rodzaj>
+				<odległość_od_z jednostka="ly">8,65</odległość_od_z>
+				<masa>2,12 masy Słońca</masa>
+				<promień>1,75 promienia Słońca</promień>
+				<data_odkrycia>13.06.2459 p.n.e</data_odkrycia>
+				<wiek>2,5*10<sup>8</sup>lat</wiek>
+				<temp jednostka="K">9880 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Wielki_Pies">
+				<nazwa>Syriusz B</nazwa>
+				<rodzaj>Karzeł</rodzaj> 
+				<odległość_od_z jednostka="ly">8,6</odległość_od_z>
+				<masa>1,03 masy Słońca</masa>
+				<promień>1,03 promienia Słońca</promień>
+				<data_odkrycia>13.06.1764 p.n.e</data_odkrycia>
+				<wiek>3,5*10<sup>8</sup>lat</wiek>
+				<temp jednostka="K">24800 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Kil">
+				<nazwa>Kanopus</nazwa>
+				<rodzaj>Olbrzym</rodzaj>
+				<odległość_od_z jednostka="ly">309</odległość_od_z>
+				<masa>8,7 masy Słońca</masa>
+				<promień>67,4 promienia Słońca</promień>
+				<data_odkrycia>05.04.247 p.n.e</data_odkrycia>
+				<wiek>7,8*10<sup>9</sup>lat</wiek>
+				<temp jednostka="K">7280 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Wolarz">
+				<nazwa>Arktur</nazwa>
+				<rodzaj>Olbrzym</rodzaj>
+				<odległość_od_z jednostka="ly">36,72</odległość_od_z>
+				<masa>1,8 masy Słońca</masa>
+				<promień>25,4 promienia Słońca</promień>
+				<data_odkrycia>14.02.1954</data_odkrycia>
+				<wiek>7,1*10<sup>9</sup>lat</wiek>
+				<temp jednostka="K">4286 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Centaur">
+				<nazwa>Alfa Centauri</nazwa>
+				<rodzaj>Karzeł</rodzaj> 
+				<odległość_od_z jednostka="ly">4,37</odległość_od_z>
+				<masa>1,14 masy Słońca</masa>
+				<promień>1,1 promienia Słońca</promień>
+				<data_odkrycia>01.09.1856</data_odkrycia>
+				<wiek>5,12*10<sup>9</sup>lat</wiek>
+				<temp jednostka="K">5900 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Lutnia">
+				<nazwa>Wega</nazwa>
+				<rodzaj>Karzeł</rodzaj>
+				<odległość_od_z jednostka="ly">25,045</odległość_od_z>
+				<masa>2,15 masy Słońca</masa>
+				<promień>2,56 promienia Słońca</promień>
+				<data_odkrycia>16.03.1301 p.n.e</data_odkrycia>
+				<wiek>7*10<sup>8</sup>lat</wiek>
+				<temp jednostka="K">9500 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Orion">
+				<nazwa>Rigel</nazwa>
+				<rodzaj>Nadolbrzym</rodzaj> 
+				<odległość_od_z jednostka="ly">870</odległość_od_z>
+				<masa>23 masy Słońca</masa>
+				<promień>78,9 promienia Słońca</promień>
+				<data_odkrycia>16.07.1468</data_odkrycia>
+				<wiek>8*10<sup>6</sup>lat</wiek>
+				<temp jednostka="K">12100 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Mały_Pies">
+				<nazwa>Procjon A</nazwa>
+				<rodzaj>Podolbrzym</rodzaj>
+				<odległość_od_z jednostka="ly">11,462</odległość_od_z>
+				<masa>1,42 masy Słońca</masa>
+				<promień>2,1 promienia Słońca</promień>
+				<data_odkrycia>03.04.1245 p.n.e</data_odkrycia>
+				<wiek>1,7*10<sup>9</sup>lat</wiek>
+				<temp jednostka="K">6530 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Mały_Pies" >
+				<nazwa>Procjon B</nazwa>
+				<rodzaj>Karzeł</rodzaj> 
+				<odległość_od_z jednostka="ly">11,41</odległość_od_z>
+				<masa>0,6 masy Słońca</masa>
+				<promień>1,35 promienia Słońca</promień>
+				<data_odkrycia>07.04.1245 p.n.e</data_odkrycia>
+				<wiek>9*10<sup>9</sup>lat</wiek>
+				<temp jednostka="K">7440 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Erydan">
+				<nazwa>Achernar</nazwa>
+				<rodzaj>Karzeł</rodzaj>
+				<odległość_od_z jednostka="ly">139,4</odległość_od_z>
+				<masa>7 mas Słońca</masa>
+				<promień>11,6 promienia Słońca</promień>
+				<data_odkrycia>16.10.1654 p.n.e</data_odkrycia>
+				<wiek>6,87*10<sup>9</sup>lat</wiek>
+				<temp jednostka="K">17000 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Orion">
+				<nazwa>Betelgeza</nazwa>
+				<rodzaj>Nadolbrzym</rodzaj> 
+				<odległość_od_z jednostka="ly">720</odległość_od_z>
+				<masa>18 masy Słońca</masa>
+				<promień>1000 promieni Słońca</promień>
+				<data_odkrycia>09.11.1578 p.n.e</data_odkrycia>
+				<wiek>8,5*10<sup>6</sup>lat</wiek>
+				<temp jednostka="K">3600 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Centaur">
+				<nazwa>Hadar</nazwa>
+				<rodzaj>Olbrzym</rodzaj> 
+				<odległość_od_z jednostka="ly">400</odległość_od_z>
+				<masa>14.7 masy Słońca</masa>
+				<promień>9 promieni Słońca</promień>
+				<data_odkrycia>12.07.1211 p.n.e</data_odkrycia>
+				<wiek>14,2*10<sup>6</sup>lat</wiek>
+				<temp jednostka="K">25000 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Woźnica">
+				<nazwa>Kapella</nazwa>
+				<rodzaj>Olbrzym</rodzaj> 
+				<odległość_od_z jednostka="ly">42,80</odległość_od_z>
+				<masa>2,573 masy Słońca</masa>
+				<promień>11,87 promienia Słońca</promień>
+				<data_odkrycia>04.02.132</data_odkrycia>
+				<wiek>4*10<sup>8</sup>lat</wiek>
+				<temp jednostka="K">4920 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Orzeł">
+				<nazwa>Altair</nazwa>
+				<rodzaj>Karzeł</rodzaj> 
+				<odległość_od_z jednostka="ly">16,73</odległość_od_z>
+				<masa>1,79 masy Słońca</masa>
+				<promień>1,86 promienia Słońca</promień>
+				<data_odkrycia>08.12.1367 p.n.e</data_odkrycia>
+				<wiek>3,9*10<sup>9</sup>lat</wiek>
+				<temp jednostka="K">7000 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Byk">
+				<nazwa>Aldebaran</nazwa>
+				<rodzaj>Olbrzym</rodzaj>
+				<odległość_od_z jednostka="ly">67</odległość_od_z>
+				<masa>1,7 masy Słońca</masa>
+				<promień>44,2 promienia Słońca</promień>
+				<data_odkrycia>26.05.1412 p.n.e</data_odkrycia>
+				<wiek>7,5*10<sup>9</sup>lat</wiek>
+				<temp jednostka="K">4010 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Panna">
+				<nazwa>Spica</nazwa>
+				<rodzaj>Podolbrzym</rodzaj> 
+				<odległość_od_z jednostka="ly">250</odległość_od_z>
+				<masa>10,25 masy Słońca</masa>
+				<promień>7,40 promienia Słońca</promień>
+				<data_odkrycia>27.09.1192 p.n.e</data_odkrycia>
+				<wiek>6,45*10<sup>7</sup>lat</wiek>
+				<temp jednostka="K">24000 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Skorpion">
+				<nazwa>Antares</nazwa>
+				<rodzaj>Nadolbrzym</rodzaj> 
+				<odległość_od_z jednostka="ly">550</odległość_od_z>
+				<masa>17 mas Słońca</masa>
+				<promień>883 promieni Słońca</promień>
+				<data_odkrycia>23.11.475</data_odkrycia>
+				<wiek>12*10<sup>6</sup>lat</wiek>
+				<temp jednostka="K">3400 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Bliźnięta">
+				<nazwa>Polluks</nazwa>
+				<rodzaj>Olbrzym</rodzaj> 
+				<odległość_od_z jednostka="ly">33,785</odległość_od_z>
+				<masa>1,47 masy Słońca</masa>
+				<promień>9,3 promienia Słońca</promień>
+				<data_odkrycia>11.07.984 p.n.e</data_odkrycia>
+				<wiek>4,23*10<sup>7</sup>lat</wiek>
+				<temp jednostka="K">4770 K</temp>
+			</gwiazda>
+
+			<gwiazda gwiazdozbiór="Ryba_Południowa">
+				<nazwa>Fomalhaut</nazwa>
+				<rodzaj>Karzeł</rodzaj> 
+				<odległość_od_z jednostka="ly">25,126</odległość_od_z>
+				<masa>1,92 masy Słońca</masa>
+				<promień>1,842 promienia Słońca</promień>
+				<data_odkrycia>31.12.654 p.n.e</data_odkrycia>
+				<wiek>4,40*10<sup>8</sup>lat</wiek>
+				<temp jednostka="K">8590 K</temp>
+			</gwiazda>
+		</gwiazdy>
+		<!--
+		<planety>
+
+			<planeta typ="skalista">
+				<nazwa>  Merkury  </nazwa>
+				<miejsce_pol gwiazdozbiór="Układ Słoneczny" />
+				<odległość_od_z> 90 mln km </odległość_od_z>
+				<masa> 0,055 masy Ziemi</masa>
+				<promień> 0,383 promienia Ziemi</promień>
+				<okres_orb> 87,969 dni </okres_orb>
+				<temp> ~500 K </temp>
+			</planeta>
+
+			<planeta typ="skalista">
+				<nazwa>  Wenus  </nazwa>
+				<miejsce_pol gwiazdozbiór="Układ Słoneczny" />
+				<odległość_od_z> 40 - 259 mln </odległość_od_z>
+				<masa> 0,815 masy Ziemi</masa>
+				<promień> 0,902 promienia Ziemi</promień>
+				<okres_orb> 224,701 dni </okres_orb>
+				<temp> 737 K </temp>
+			</planeta>
+
+			<planeta typ="skalista">
+				<nazwa>  Ziemia  </nazwa>
+				<miejsce_pol gwiazdozbiór="Układ Słoneczny" />
+				<odległość_od_z> XXX </odległość_od_z>
+				<masa> 5,972*10<sup>24</sup> kg </masa>
+				<promień> 6371 km </promień>
+				<okres_orb> 365,25 dni </okres_orb>
+				<temp> 185 - 331 K </temp>
+			</planeta>
+
+			<planeta typ="skalista">
+				<nazwa>  Mars  </nazwa>
+				<miejsce_pol gwiazdozbiór="Układ Słoneczny" />
+				<odległość_od_z> 54 - 103 mln km </odległość_od_z>
+				<masa> 0,107 masy Ziemi</masa>
+				<promień> 0,532 promienia Ziemi</promień>
+				<okres_orb> 686,98 dni </okres_orb>
+				<temp> 133 - 293 K </temp>
+			</planeta>
+
+			<planeta typ="gazowa">
+				<nazwa>  Jowisz  </nazwa>
+				<miejsce_pol gwiazdozbiór="Układ Słoneczny" />
+				<odległość_od_z> 591 - 965 mln km </odległość_od_z>
+				<masa> 317,83 mas Ziemi</masa>
+				<promień> 10,973 promienia Ziemi</promień>
+				<okres_orb> 4332,589 dni </okres_orb>
+				<temp> 165 K </temp>
+			</planeta>
+
+			<planeta typ="gazowa">
+				<nazwa>  Saturn  </nazwa>
+				<miejsce_pol gwiazdozbiór="Układ Słoneczny" />
+				<odległość_od_z> 1,28 mld km </odległość_od_z>
+				<masa> 95,16 masy Ziemi</masa>
+				<promień> 9,140 promienia Ziemi</promień>
+				<okres_orb> 10 759,22 dni </okres_orb>
+				<temp> 134 K </temp>
+			</planeta>
+
+			<planeta typ="gazowa">
+				<nazwa>  Uran  </nazwa>
+				<miejsce_pol gwiazdozbiór="Układ Słoneczny" />
+				<odległość_od_z> 2,721 mld km </odległość_od_z>
+				<masa> 14,54 masy Ziemi</masa>
+				<promień> 3,981 promienia Ziemi</promień>
+				<okres_orb> 30 685,4 dni </okres_orb>
+				<temp> 76 K </temp>
+			</planeta>
+
+			<planeta typ="gazowa">
+				<nazwa>  Neptun  </nazwa>
+				<miejsce_pol gwiazdozbiór="Układ Słoneczny" />
+				<odległość_od_z> 4,345 mld km </odległość_od_z>
+				<masa> 17,15 masy Ziemi</masa>
+				<promień> 3,865 promienia Ziemi</promień>
+				<okres_orb> 60 189 dni </okres_orb>
+				<temp> 46 K </temp>
+			</planeta>
+
+		</planety>
+		-->
+		<gwiazdozbiory>
+
+			<!--<konstelacja gwiazdozbiór="Brak">
+				<nazwa>Nazwa:</nazwa>
+				<łacina>Nazwa Łacińska:</łacina>
+				<rektascensja>Rektascensja:</rektascensja>
+				<deklinacja>Deklinacja:</deklinacja>
+				<powierzchnia>Powierzchnia:</powierzchnia>
+			</konstelacja>-->
+
+			<konstelacja gwiazdozbiór="Wielki_Pies">
+				<nazwa>Wielki Pies</nazwa>
+				<łacina>Canis Maior</łacina>
+				<rektascensja>7h</rektascensja>
+				<deklinacja>-21°</deklinacja>
+				<powierzchnia>380 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Kil">
+				<nazwa>Kil</nazwa>
+				<łacina>Carina</łacina>
+				<rektascensja>9h</rektascensja>
+				<deklinacja>-60°</deklinacja>
+				<powierzchnia>494 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Wolarz">
+				<nazwa>Wolarz</nazwa>
+				<łacina>Bootes</łacina>
+				<rektascensja>14.5h</rektascensja>
+				<deklinacja>-30°</deklinacja>
+				<powierzchnia>907 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Centaur">
+				<nazwa>Centaur</nazwa>
+				<łacina>Centaurus</łacina>
+				<rektascensja>13h</rektascensja>
+				<deklinacja>-50°</deklinacja>
+				<powierzchnia>1060 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Lutnia">
+				<nazwa>Lutnia</nazwa>
+				<łacina>Lyra</łacina>
+				<rektascensja>19h</rektascensja>
+				<deklinacja>40°</deklinacja>
+				<powierzchnia>286 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Orion">
+				<nazwa>Orion</nazwa>
+				<łacina>Orion</łacina>
+				<rektascensja>5.5h</rektascensja>
+				<deklinacja>0°</deklinacja>
+				<powierzchnia>594 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Mały_Pies">
+				<nazwa>Mały Pies</nazwa>
+				<łacina>Canis Minor</łacina>
+				<rektascensja>7.5h</rektascensja>
+				<deklinacja>5°</deklinacja>
+				<powierzchnia>182 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Erydan">
+				<nazwa>Erydan</nazwa>
+				<łacina>Eridanus</łacina>
+				<rektascensja>3.5h</rektascensja>
+				<deklinacja>-25°</deklinacja>
+				<powierzchnia>1138 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Woźnica">
+				<nazwa>Woźnica</nazwa>
+				<łacina>Auriga</łacina>
+				<rektascensja>6h</rektascensja>
+				<deklinacja>40°</deklinacja>
+				<powierzchnia>657 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Orzeł">
+				<nazwa>Orzeł</nazwa>
+				<łacina>Aquila</łacina>
+				<rektascensja>19.5h</rektascensja>
+				<deklinacja>3°</deklinacja>
+				<powierzchnia>652 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Byk">
+				<nazwa>Byk</nazwa>
+				<łacina>Taurus</łacina>
+				<rektascensja>4.5h</rektascensja>
+				<deklinacja>15°</deklinacja>
+				<powierzchnia>797 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Panna">
+				<nazwa>Panna</nazwa>
+				<łacina>Virgo</łacina>
+				<rektascensja>13h</rektascensja>
+				<deklinacja>0°</deklinacja>
+				<powierzchnia>1294 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Skorpion">
+				<nazwa>Skorpion</nazwa>
+				<łacina>Scorpius</łacina>
+				<rektascensja>17h</rektascensja>
+				<deklinacja>-35°</deklinacja>
+				<powierzchnia>497 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Bliźnięta">
+				<nazwa>Bliźnięta</nazwa>
+				<łacina>Gemini</łacina>
+				<rektascensja>7h</rektascensja>
+				<deklinacja>20°</deklinacja>
+				<powierzchnia>514 stopni kw.</powierzchnia>
+			</konstelacja>
+
+			<konstelacja gwiazdozbiór="Ryba_Południowa">
+				<nazwa>Ryba Południowa</nazwa>
+				<łacina>Piscis Austrinus</łacina>
+				<rektascensja>22h</rektascensja>
+				<deklinacja>-30°</deklinacja>
+				<powierzchnia>245 stopni kw.</powierzchnia>
+			</konstelacja>
+		</gwiazdozbiory>
+
+	
+</Gwiazdka>

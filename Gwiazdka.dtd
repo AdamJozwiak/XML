@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT Gwiazdka (tytuł,gwiazdy,gwiazdozbiory)>
+        <!ELEMENT tytuł (#PCDATA)>
+        <!ELEMENT gwiazdy (gwiazda+)>
+        <!ELEMENT gwiazda (nazwa,rodzaj,odległość_od_z,masa,promień,data_odkrycia,wiek,temp)*>
+        <!ATTLIST gwiazda
+                gwiazdozbiór IDREF #IMPLIED>
+        <!ELEMENT nazwa (#PCDATA)>
+        <!ELEMENT rodzaj (#PCDATA)>
+        <!ELEMENT odległość_od_z (#PCDATA | sup)*>
+        <!ATTLIST odległość_od_z
+                jednostka CDATA #REQUIRED>
+        <!ELEMENT sup (#PCDATA)>
+        <!ELEMENT masa (#PCDATA | sup)*>
+        <!ELEMENT promień (#PCDATA)>
+        <!ELEMENT data_odkrycia (#PCDATA)>
+        <!ELEMENT wiek (#PCDATA | sup)*>
+        <!ELEMENT temp (#PCDATA)>
+        <!ATTLIST temp
+                jednostka CDATA #REQUIRED>
+        <!ELEMENT gwiazdozbiory (konstelacja+)>
+        <!ELEMENT konstelacja (nazwa,łacina,rektascensja,deklinacja,powierzchnia)*>
+        <!ATTLIST konstelacja
+                gwiazdozbiór ID #REQUIRED>
+        <!ELEMENT łacina (#PCDATA)>
+        <!ELEMENT rektascensja (#PCDATA)>
+        <!ELEMENT deklinacja (#PCDATA)>
+        <!ELEMENT powierzchnia (#PCDATA)>

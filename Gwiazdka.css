@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+Gwiazdka {
+   /* background-color: red;*/
+    color: rgb(255, 165, 0);
+	font-size: 20px;
+    background-image: url('bg.png');
+	background-size:cover;
+    background-attachment: fixed;
+    /*background-position: 55% 40%;*/
+}
+tytuł {
+    font-size: 50px;
+    color: #fefce9;
+    display: block;
+    margin-top: 1%;
+    margin-left: 35%;
+    opacity: 0;
+    animation-name: dwa;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bold;
+}
+gwiazda {
+    display: inline-block;
+    width: 15%;
+    height: 300px;
+	margin-top: 2%;
+	margin-right: 3%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    /*padding-left: 10px;*/
+    /*border-top: 2px solid white;*/
+    padding: 2%;
+    /*padding-right: 3%;*/
+    /*position: static;*/
+    text-align:center;
+    position: relative;
+    animation-name: raz;
+    animation-duration: 2s;
+}
+@keyframes raz {
+    0% {top: -1600px;}
+    100% {top: 0px;}
+}
+@keyframes dwa {
+    0% {opacity:0}
+    100% {opacity:1}
+}
+sup{
+    vertical-align: super;
+    font-size: 12px;
+}
+
+nazwa {
+    font-weight: bold;
+    font-size: 30px;
+    cursor: cell;
+	text-align:center;
+}
+gwiazda:nth-child(2n+1)
+{
+    float: left;
+    display: block;
+}
+gwiazda:nth-child(2n)
+{
+    float:right;
+    display: block;
+}
+odległość_od_z, masa, promień, data_odkrycia, wiek, temp, rodzaj {
+    display: none;
+}
+gwiazda:after{
+	display: none;
+}
+gwiazda:hover rodzaj{
+    display: block;
+}
+gwiazda:hover odległość_od_z{
+    display: block;
+}
+gwiazda:hover masa{
+    display: block;
+}
+gwiazda:hover promień{
+    display: block;
+}
+gwiazda:hover data_odkrycia{
+    display: block;
+}
+gwiazda:hover wiek{
+    display: block;
+}
+gwiazda:hover temp{
+    display: block;
+}
+
+gwiazda::after{
+    display: initial;
+	content: "Gwiazdozbiór: " attr(gwiazdozbiór);
+	color: #d3d3d3;
+}
+rodzaj:before{
+    content:"Rodzaj: ";
+    color: #ead337;
+}
+
+odległość_od_z:before{
+    content:"Odległość: ";
+    color: #ead337;
+}
+odległość_od_z:after{
+    content:attr(jednostka);
+}
+masa:before{
+    content:"Masa: ";
+    color: #ead337;
+}
+odległość_od_z:before{
+    content:"Odległość: ";
+    color: #ead337;
+}
+promień:before{
+    content:"Promień: ";
+    color: #ead337;
+}
+
+data_odkrycia:before{
+    content:"Data odkrycia: ";
+    color: #ead337;
+}
+wiek:before{
+    content:"Wiek: ";
+    color: #ead337;
+}
+temp:before{
+    content:"Temperatura: ";
+    color: #ead337;
+}
+temp:after{
+    content:attr(jednostka);
+    /*color: #ead337;*/
+}
+konstelacja{
+    display: table-cell;
+    /*margin-right: 5%;*/
+    border: 2px dashed rgb(204, 204, 204);
+    text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+nazwa, łacina, rektascensja, deklinacja, powierzchnia {
+    display: block;
+    padding: 5px;
+}
+konstelacja nazwa{
+    height:78px;
+}
+konstelacja łacina{
+    height: 56px;
+}
+konstelacja rektascensja{
+    height: 44.5px;
+}
+/*rektascensja{
+    padding-top: 10%
+}*/
+deklinacja{
+    padding-bottom: 15%
+}
+/*powierzchnia{
+    padding-top: 10%
+}*/

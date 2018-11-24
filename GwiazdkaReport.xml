@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GwiazdkaReport>
+   <Gwiazda Nazwa="Słońce" Rodzaj="Karzeł" Odległość_od_Ziemi="0,0000158"
+            Masa="1,989*1030 kg"
+            Promień="69600000 km"
+            Data_odkrycia="nieznana"
+            Wiek="4,57*109lat"
+            Temp="5778"
+            Gwiazdozbiór="Układ Słoneczny"/>
+   <Gwiazda Nazwa="Syriusz A" Rodzaj="Karzeł" Odległość_od_Ziemi="8,65"
+            Masa="2,12 masy Słońca"
+            Promień="1,75 promienia Słońca"
+            Data_odkrycia="13.06.2459 p.n.e"
+            Wiek="2,5*108lat"
+            Temp="9880"
+            Gwiazdozbiór="Wielki Pies"/>
+   <Gwiazda Nazwa="Syriusz B" Rodzaj="Karzeł" Odległość_od_Ziemi="8,6"
+            Masa="1,03 masy Słońca"
+            Promień="1,03 promienia Słońca"
+            Data_odkrycia="13.06.1764 p.n.e"
+            Wiek="3,5*108lat"
+            Temp="24800"
+            Gwiazdozbiór="Wielki Pies"/>
+   <Gwiazda Nazwa="Kanopus" Rodzaj="Olbrzym" Odległość_od_Ziemi="309"
+            Masa="8,7 masy Słońca"
+            Promień="67,4 promienia Słońca"
+            Data_odkrycia="05.04.247 p.n.e"
+            Wiek="7,8*109lat"
+            Temp="7280"
+            Gwiazdozbiór="Kil"/>
+   <Gwiazda Nazwa="Arktur" Rodzaj="Olbrzym" Odległość_od_Ziemi="36,72"
+            Masa="1,8 masy Słońca"
+            Promień="25,4 promienia Słońca"
+            Data_odkrycia="14.02.1954"
+            Wiek="7,1*109lat"
+            Temp="4286"
+            Gwiazdozbiór="Wolarz"/>
+   <Gwiazda Nazwa="Alfa Centauri" Rodzaj="Karzeł" Odległość_od_Ziemi="4,37"
+            Masa="1,14 masy Słońca"
+            Promień="1,1 promienia Słońca"
+            Data_odkrycia="01.09.1856"
+            Wiek="5,12*109lat"
+            Temp="5900"
+            Gwiazdozbiór="Centaur"/>
+   <Gwiazda Nazwa="Wega" Rodzaj="Karzeł" Odległość_od_Ziemi="25,045"
+            Masa="2,15 masy Słońca"
+            Promień="2,56 promienia Słońca"
+            Data_odkrycia="16.03.1301 p.n.e"
+            Wiek="7*108lat"
+            Temp="9500"
+            Gwiazdozbiór="Lutnia"/>
+   <Gwiazda Nazwa="Rigel" Rodzaj="Nadolbrzym" Odległość_od_Ziemi="870"
+            Masa="23 masy Słońca"
+            Promień="78,9 promienia Słońca"
+            Data_odkrycia="16.07.1468"
+            Wiek="8*106lat"
+            Temp="12100"
+            Gwiazdozbiór="Orion"/>
+   <Gwiazda Nazwa="Procjon A" Rodzaj="Podolbrzym" Odległość_od_Ziemi="11,462"
+            Masa="1,42 masy Słońca"
+            Promień="2,1 promienia Słońca"
+            Data_odkrycia="03.04.1245 p.n.e"
+            Wiek="1,7*109lat"
+            Temp="6530"
+            Gwiazdozbiór="Mały Pies"/>
+   <Gwiazda Nazwa="Procjon B" Rodzaj="Karzeł" Odległość_od_Ziemi="11,41"
+            Masa="0,6 masy Słońca"
+            Promień="1,35 promienia Słońca"
+            Data_odkrycia="07.04.1245 p.n.e"
+            Wiek="9*109lat"
+            Temp="7440"
+            Gwiazdozbiór="Mały Pies"/>
+   <Gwiazda Nazwa="Achernar" Rodzaj="Karzeł" Odległość_od_Ziemi="139,4" Masa="7 mas Słońca"
+            Promień="11,6 promienia Słońca"
+            Data_odkrycia="16.10.1654 p.n.e"
+            Wiek="6,87*109lat"
+            Temp="17000"
+            Gwiazdozbiór="Erydan"/>
+   <Gwiazda Nazwa="Betelgeza" Rodzaj="Nadolbrzym" Odległość_od_Ziemi="720"
+            Masa="18 masy Słońca"
+            Promień="1000 promieni Słońca"
+            Data_odkrycia="09.11.1578 p.n.e"
+            Wiek="8,5*106lat"
+            Temp="3600"
+            Gwiazdozbiór="Orion"/>
+   <Gwiazda Nazwa="Hadar" Rodzaj="Olbrzym" Odległość_od_Ziemi="400" Masa="14.7 masy Słońca"
+            Promień="9 promieni Słońca"
+            Data_odkrycia="12.07.1211 p.n.e"
+            Wiek="14,2*106lat"
+            Temp="25000"
+            Gwiazdozbiór="Centaur"/>
+   <Gwiazda Nazwa="Kapella" Rodzaj="Olbrzym" Odległość_od_Ziemi="42,80"
+            Masa="2,573 masy Słońca"
+            Promień="11,87 promienia Słońca"
+            Data_odkrycia="04.02.132"
+            Wiek="4*108lat"
+            Temp="4920"
+            Gwiazdozbiór="Woźnica"/>
+   <Gwiazda Nazwa="Altair" Rodzaj="Karzeł" Odległość_od_Ziemi="16,73"
+            Masa="1,79 masy Słońca"
+            Promień="1,86 promienia Słońca"
+            Data_odkrycia="08.12.1367 p.n.e"
+            Wiek="3,9*109lat"
+            Temp="7000"
+            Gwiazdozbiór="Orzeł"/>
+   <Gwiazda Nazwa="Aldebaran" Rodzaj="Olbrzym" Odległość_od_Ziemi="67"
+            Masa="1,7 masy Słońca"
+            Promień="44,2 promienia Słońca"
+            Data_odkrycia="26.05.1412 p.n.e"
+            Wiek="7,5*109lat"
+            Temp="4010"
+            Gwiazdozbiór="Byk"/>
+   <Gwiazda Nazwa="Spica" Rodzaj="Podolbrzym" Odległość_od_Ziemi="250"
+            Masa="10,25 masy Słońca"
+            Promień="7,40 promienia Słońca"
+            Data_odkrycia="27.09.1192 p.n.e"
+            Wiek="6,45*107lat"
+            Temp="24000"
+            Gwiazdozbiór="Panna"/>
+   <Gwiazda Nazwa="Antares" Rodzaj="Nadolbrzym" Odległość_od_Ziemi="550"
+            Masa="17 mas Słońca"
+            Promień="883 promieni Słońca"
+            Data_odkrycia="23.11.475"
+            Wiek="12*106lat"
+            Temp="3400"
+            Gwiazdozbiór="Skorpion"/>
+   <Gwiazda Nazwa="Polluks" Rodzaj="Olbrzym" Odległość_od_Ziemi="33,785"
+            Masa="1,47 masy Słońca"
+            Promień="9,3 promienia Słońca"
+            Data_odkrycia="11.07.984 p.n.e"
+            Wiek="4,23*107lat"
+            Temp="4770"
+            Gwiazdozbiór="Bliźnięta"/>
+   <Gwiazda Nazwa="Fomalhaut" Rodzaj="Karzeł" Odległość_od_Ziemi="25,126"
+            Masa="1,92 masy Słońca"
+            Promień="1,842 promienia Słońca"
+            Data_odkrycia="31.12.654 p.n.e"
+            Wiek="4,40*108lat"
+            Temp="8590"
+            Gwiazdozbiór="Ryba Południowa"/>
+   <Konstelacja Nazwa="Wielki Pies" Łacińska_nazwa="Canis Maior" Rektascensja="7h"
+                Deklinacja="-21°"
+                Powierzchnia="380 stopni kw."/>
+   <Konstelacja Nazwa="Kil" Łacińska_nazwa="Carina" Rektascensja="9h" Deklinacja="-60°"
+                Powierzchnia="494 stopni kw."/>
+   <Konstelacja Nazwa="Wolarz" Łacińska_nazwa="Bootes" Rektascensja="14.5h" Deklinacja="-30°"
+                Powierzchnia="907 stopni kw."/>
+   <Konstelacja Nazwa="Centaur" Łacińska_nazwa="Centaurus" Rektascensja="13h" Deklinacja="-50°"
+                Powierzchnia="1060 stopni kw."/>
+   <Konstelacja Nazwa="Lutnia" Łacińska_nazwa="Lyra" Rektascensja="19h" Deklinacja="40°"
+                Powierzchnia="286 stopni kw."/>
+   <Konstelacja Nazwa="Orion" Łacińska_nazwa="Orion" Rektascensja="5.5h" Deklinacja="0°"
+                Powierzchnia="594 stopni kw."/>
+   <Konstelacja Nazwa="Mały Pies" Łacińska_nazwa="Canis Minor" Rektascensja="7.5h"
+                Deklinacja="5°"
+                Powierzchnia="182 stopni kw."/>
+   <Konstelacja Nazwa="Erydan" Łacińska_nazwa="Eridanus" Rektascensja="3.5h" Deklinacja="-25°"
+                Powierzchnia="1138 stopni kw."/>
+   <Konstelacja Nazwa="Woźnica" Łacińska_nazwa="Auriga" Rektascensja="6h" Deklinacja="40°"
+                Powierzchnia="657 stopni kw."/>
+   <Konstelacja Nazwa="Orzeł" Łacińska_nazwa="Aquila" Rektascensja="19.5h" Deklinacja="3°"
+                Powierzchnia="652 stopni kw."/>
+   <Konstelacja Nazwa="Byk" Łacińska_nazwa="Taurus" Rektascensja="4.5h" Deklinacja="15°"
+                Powierzchnia="797 stopni kw."/>
+   <Konstelacja Nazwa="Panna" Łacińska_nazwa="Virgo" Rektascensja="13h" Deklinacja="0°"
+                Powierzchnia="1294 stopni kw."/>
+   <Konstelacja Nazwa="Skorpion" Łacińska_nazwa="Scorpius" Rektascensja="17h" Deklinacja="-35°"
+                Powierzchnia="497 stopni kw."/>
+   <Konstelacja Nazwa="Bliźnięta" Łacińska_nazwa="Gemini" Rektascensja="7h" Deklinacja="20°"
+                Powierzchnia="514 stopni kw."/>
+   <Konstelacja Nazwa="Ryba Południowa" Łacińska_nazwa="Piscis Austrinus" Rektascensja="22h"
+                Deklinacja="-30°"
+                Powierzchnia="245 stopni kw."/>
+   <Podsumowanie>
+      <liczbaGwiazd>20</liczbaGwiazd>
+      <liczbaKonstelacji>15</liczbaKonstelacji>
+      <liczbaKarłów>9</liczbaKarłów>
+      <liczbaOlbrzymów>6</liczbaOlbrzymów>
+      <liczbaPodolbrzymów>3</liczbaPodolbrzymów>
+      <liczbaNadolbrzymów>2</liczbaNadolbrzymów>
+      <dataWygenerowaniaRaportu>24/11/2018</dataWygenerowaniaRaportu>
+   </Podsumowanie>
+</GwiazdkaReport>

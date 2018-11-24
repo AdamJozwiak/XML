@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="JaIMojaPrzestrzeńNazw"
+            xmlns:am="JaIMojaPrzestrzeńNazw"
+            elementFormDefault="qualified">
+
+
+    <xsd:element name="Gwiazdka">
+        
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="tytuł"/>
+                <xsd:element type="am:gwiazdyType" name="gwiazdy"/>
+                <xsd:element type="am:gwiazdozbioryType" name="gwiazdozbiory"/>
+            </xsd:sequence>
+        </xsd:complexType>
+
+        <xsd:key name="gwiazdozbiórID" >
+            <xsd:selector xpath="./gwiazdozbiory/konstelacja"/>
+             <xsd:field xpath="gwiazdozbiór"/>
+         </xsd:key>
+
+         <xsd:keyref name="gwiazdozbiórREF" refer="am:gwiazdozbiórID">
+             <xsd:selector xpath="./gwiazdy/gwiazda"/>
+             <xsd:field xpath="@gwiazdozbiór"/>
+        </xsd:keyref>
+        
+    </xsd:element>
+
+    <xsd:group name="gr">
+        <xsd:sequence>
+            <xsd:element type="am:masaType" name="masa"/>
+            <xsd:element type="xsd:string" name="promień"/>
+        </xsd:sequence>
+    </xsd:group>
+
+    <xsd:complexType name="gwiazdyType">
+        <xsd:sequence>
+            <xsd:element type="am:gwiazdaType" name="gwiazda" maxOccurs="unbounded" minOccurs="0"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="gwiazdozbioryType">
+        <xsd:sequence>
+            <xsd:element type="am:konstelacjaType" name="konstelacja" maxOccurs="unbounded" minOccurs="0"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="gwiazdaType">
+        <xsd:sequence>
+            <xsd:element type="xsd:string" name="nazwa"/>
+            <xsd:element name="rodzaj">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:enumeration value="Karzeł"/>
+                        <xsd:enumeration value="Olbrzym"/>
+                        <xsd:enumeration value="Nadolbrzym"/>
+                        <xsd:enumeration value="Podolbrzym"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+            <xsd:element type="am:odległość_od_zType" name="odległość_od_z"/>
+            <xsd:group ref="am:gr"/>
+            <xsd:element type="xsd:string" name="data_odkrycia"/>
+            <xsd:element type="am:wiekType" name="wiek"/>
+            <xsd:element type="am:tempType" name="temp"/>
+        </xsd:sequence>
+        <xsd:attribute type="xsd:string" name="gwiazdozbiór"/>
+    </xsd:complexType>
+
+  <xsd:complexType name="odległość_od_zType" mixed="true">
+    <xsd:attribute type="xsd:string" name="jednostka"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="masaType" mixed="true">
+    <xsd:sequence>
+      <xsd:element type="xsd:integer" name="sup" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="wiekType" mixed="true">
+    <xsd:sequence>
+      <xsd:element name="sup" type="xsd:integer"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <xsd:simpleType name="tempRestriction">
+        <xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="1"/>
+            <xsd:maxInclusive value="100000"/>
+        </xsd:restriction>
+   </xsd:simpleType>
+
+  <xsd:complexType name="tempType" >
+      <xsd:simpleContent>
+          <xsd:extension base="am:tempRestriction">
+                <xsd:attribute type="xsd:string" name="jednostka"/>
+          </xsd:extension>
+      </xsd:simpleContent>
+    
+  </xsd:complexType>
+
+  <xsd:complexType name="konstelacjaType">
+      
+    <xsd:sequence>
+      <xsd:element type="xsd:string" name="nazwa"/>
+      <xsd:element type="xsd:string" name="łacina"/>
+      <xsd:element type="xsd:string" name="rektascensja"/>
+      <xsd:element type="xsd:string" name="deklinacja"/>
+      <xsd:element type="xsd:string" name="powierzchnia"/>
+    </xsd:sequence>
+    
+    <xsd:attribute type="xsd:string" name="gwiazdozbiór"/>
+    
+  </xsd:complexType>
+
+</xsd:schema>
