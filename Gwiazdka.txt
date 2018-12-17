@@ -1,0 +1,49 @@
+﻿
+    Nazwa    |  Rodzaj   |       Masa       |        Promień        | Temp | Gwiazdozbiór
+        
+Słońce       | Karzeł    | 1,989*1030 kg    | 69600000 km           | 5778 | Układ Słoneczny
+Syriusz A    | Karzeł    | 2,12 masy Słońca | 1,75 promienia Słońca | 9880 | Wielki Pies
+Syriusz B    | Karzeł    | 1,03 masy Słońca | 1,03 promienia Słońca | 24800| Wielki Pies
+Kanopus      | Olbrzym   | 8,7 masy Słońca  | 67,4 promienia Słońca | 7280 | Kil
+Arktur       | Olbrzym   | 1,8 masy Słońca  | 25,4 promienia Słońca | 4286 | Wolarz
+Alfa Centauri| Karzeł    | 1,14 masy Słońca | 1,1 promienia Słońca  | 5900 | Centaur
+Wega         | Karzeł    | 2,15 masy Słońca | 2,56 promienia Słońca | 9500 | Lutnia
+Rigel        | Nadolbrzym| 23 masy Słońca   | 78,9 promienia Słońca | 12100| Orion
+Procjon A    | Podolbrzym| 1,42 masy Słońca | 2,1 promienia Słońca  | 6530 | Mały Pies
+Procjon B    | Karzeł    | 0,6 masy Słońca  | 1,35 promienia Słońca | 7440 | Mały Pies
+Achernar     | Karzeł    | 7 mas Słońca     | 11,6 promienia Słońca | 17000| Erydan
+Betelgeza    | Nadolbrzym| 18 masy Słońca   | 1000 promieni Słońca  | 3600 | Orion
+Hadar        | Olbrzym   | 14.7 masy Słońca | 9 promieni Słońca     | 25000| Centaur
+Kapella      | Olbrzym   | 2,573 masy Słońca| 11,87 promienia Słońca| 4920 | Woźnica
+Altair       | Karzeł    | 1,79 masy Słońca | 1,86 promienia Słońca | 7000 | Orzeł
+Aldebaran    | Olbrzym   | 1,7 masy Słońca  | 44,2 promienia Słońca | 4010 | Byk
+Spica        | Podolbrzym| 10,25 masy Słońca| 7,40 promienia Słońca | 24000| Panna
+Antares      | Nadolbrzym| 17 mas Słońca    | 883 promieni Słońca   | 3400 | Skorpion
+Polluks      | Olbrzym   | 1,47 masy Słońca | 9,3 promienia Słońca  | 4770 | Bliźnięta
+Fomalhaut    | Karzeł    | 1,92 masy Słońca | 1,842 promienia Słońca| 8590 | Ryba Południowa
+
+
+    Nazwa      |     Łacina      | Rektascensja | Deklinacja | Powierzchnia
+        
+Wielki Pies    | Canis Maior     | 7h           | -21°       | 380 stopni kw.
+Kil            | Carina          | 9h           | -60°       | 494 stopni kw.
+Wolarz         | Bootes          | 14.5h        | -30°       | 907 stopni kw.
+Centaur        | Centaurus       | 13h          | -50°       | 1060 stopni kw.
+Lutnia         | Lyra            | 19h          | 40°        | 286 stopni kw.
+Orion          | Orion           | 5.5h         | 0°         | 594 stopni kw.
+Mały Pies      | Canis Minor     | 7.5h         | 5°         | 182 stopni kw.
+Erydan         | Eridanus        | 3.5h         | -25°       | 1138 stopni kw.
+Woźnica        | Auriga          | 6h           | 40°        | 657 stopni kw.
+Orzeł          | Aquila          | 19.5h        | 3°         | 652 stopni kw.
+Byk            | Taurus          | 4.5h         | 15°        | 797 stopni kw.
+Panna          | Virgo           | 13h          | 0°         | 1294 stopni kw.
+Skorpion       | Scorpius        | 17h          | -35°       | 497 stopni kw.
+Bliźnięta      | Gemini          | 7h           | 20°        | 514 stopni kw.
+Ryba Południowa| Piscis Austrinus| 22h          | -30°       | 245 stopni kw.
+
+
+Liczba Gwiazd | Liczba Konstelacji | Liczba Karłów | Liczba Olbrzymów | Liczba Podolbrzymów | Liczba Nadolbrzymów
+        
+     20       |        15          |      9        |        6         |         3           |       2
+
+Data wygenerowania raportu:24/11/2018
