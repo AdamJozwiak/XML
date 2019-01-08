@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+}
+
+header {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header .startGame {
+    flex: 1 1 auto;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+header .startGame:hover {
+    background: #ddd;
+}
+
+.game {
+    flex: auto;
+    display: block;
+    height: 100vh;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.game .row {
+    display: block;
+    white-space: nowrap;
+}
+
+.game .row .cell {
+    display: inline-block;
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+    font-size: 23px;
+}
+
+.game.gameover::before {
+    content: 'Boom!';
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.game.gamewon::before {
+    content: 'Wygranko!';
+    color: green;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.cell[data-status="mine"] {
+    background: red;
+}
+
+.cell[data-status="clear"] {
+    background: green;
+}
+
+.cell[data-status="flag"] {
+    background: orange;
+}
+
+.cell[data-status="default"] {
+    background: #ccc;
+}
